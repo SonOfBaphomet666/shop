@@ -7,13 +7,13 @@ const NavBar = () => {
       <div className="navBar">
         <div className="logoBox">
           <LiaPepperHotSolid className="logoBox__logo" />
-          HotPot
+          <p className="text">HotPot</p>
         </div>
         <div className="linkBox">
-          <p className="linkBox__link">Shop</p>
-          <p className="linkBox__link">About</p>
-          <p className="linkBox__link">Reviews</p>
-          <p className="linkBox__link">Contacts</p>
+          <a className="linkBox__link">Shop</a>
+          <a className="linkBox__link">About</a>
+          <a className="linkBox__link">Reviews</a>
+          <a className="linkBox__link">Contacts</a>
         </div>
         <div className="shoppingCartBox">
           <FaShoppingCart className="shoppingCartBox__logo"/>

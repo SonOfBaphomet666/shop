@@ -1,6 +1,6 @@
 import "./main.scss";
-// import Navbar from "./components/navBar/navbar";
-import NavBar from "./components/navBar/navBar.jsx";
+// import NavBar from "./components/navBar/navbar";
+import NavBar from "./components/navBar/NavBar.jsx";
 import Footer from "./components/footer/footer";
 
 function App() {
