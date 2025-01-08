@@ -1,12 +1,13 @@
 import { LiaPepperHotSolid } from "react-icons/lia";
 import { FaShoppingCart } from "react-icons/fa";
 
-const Navbar = () => {
+const NavBar = () => {
   return (
     <nav>
-      <div className="navbar">
+      <div className="navBar">
         <div className="logoBox">
           <LiaPepperHotSolid className="logoBox__logo" />
+          HotPot
         </div>
         <div className="linkBox">
           <p className="linkBox__link">Shop</p>
@@ -22,4 +23,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;

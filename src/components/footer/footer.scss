@@ -3,31 +3,44 @@ footer {
   background-color: $black;
   display: flex;
   justify-content: center;
+  // align-items: center;
 
   .footerBox {
-    width: 1440px;
+    max-width: 1440px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    &__box {
+      max-width: 660px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     &__logoBox {
       width: 40px;
       height: 40px;
-      margin-top: 50px;
+      margin-top: 40px;
       margin-bottom: 30px;
       .logo {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
+        color: $orange;
+      }
+      .logoText {
+        color: $green;
       }
     }
     &__addressBox {
       width: 650px;
       display: flex;
       justify-content: center;
-      border-bottom: solid 2px;
+      border-bottom: solid $white 2px;
       margin-bottom: 20px;
       .location {
         color: $white;
         width: 20px;
         height: 20px;
+        margin-right: 10px;
         margin-bottom: 15px;
       }
       .address {
@@ -39,18 +52,20 @@ footer {
       display: flex;
       justify-content: space-around;
       margin-bottom: 20px;
-      width: 150px;
+      gap: 15px;
       .socialLogo {
         width: 30px;
         height: 30px;
+        color: $green;
       }
     }
     &__text {
-      width: 640px;
-      margin-bottom: 70px;
+      width: 660px;
+      margin-bottom: 45px;
       .text {
         color: $grey;
         font-size: 16px;
+        line-height: 1.6;
       }
     }
   }
