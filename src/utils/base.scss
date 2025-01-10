@@ -1,9 +1,11 @@
 // COLOR
-$white: #faebd7;
-$black: #383838;
+$white: #ffffff;
+$black: #000000;
+$creamy: #faebd7;
+$dark-grey: #383838;
 $green: #8b9a46;
 $orange: #f58840;
-$grey: #adadad;
+$light-grey: #adadad;
 
 // TEXT
 h1,
@@ -16,6 +18,15 @@ p {
   margin: 0;
   padding: 0;
 }
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 

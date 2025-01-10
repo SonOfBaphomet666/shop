@@ -1,0 +1,15 @@
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: $orange;
+  &__infoBox {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    .textBox {
+      width: 660px;
+      padding: 50px;
+    }
+  }
+}

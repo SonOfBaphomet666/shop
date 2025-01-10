@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  background-color: $black;
+  background-color: $dark-grey;
   display: flex;
   justify-content: center;
   // align-items: center;
@@ -34,10 +34,10 @@ footer {
       width: 650px;
       display: flex;
       justify-content: center;
-      border-bottom: solid $white 2px;
+      border-bottom: solid $creamy 2px;
       margin-bottom: 20px;
       .location {
-        color: $white;
+        color: $creamy;
         width: 20px;
         height: 20px;
         margin-right: 10px;
@@ -45,7 +45,7 @@ footer {
       }
       .address {
         font-size: 18px;
-        color: $white;
+        color: $creamy;
       }
     }
     &__socialBox {
@@ -63,7 +63,7 @@ footer {
       width: 660px;
       margin-bottom: 45px;
       .text {
-        color: $grey;
+        color: $light-grey;
         font-size: 16px;
         line-height: 1.6;
       }
