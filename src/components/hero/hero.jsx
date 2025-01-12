@@ -11,10 +11,10 @@ const Hero = () => {
               Only the highest quality varieties are collected from the best
               plantations in the world
             </p>
+            <button className="shop">Shop</button>
           </div>
         </div>
       </div>
-      <p className="shop">Shop</p>
     </div>
   );
 };
